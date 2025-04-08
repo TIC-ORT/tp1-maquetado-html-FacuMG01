@@ -1,0 +1,43 @@
+/* crear archivo index.html */
+
+<!DOCTYPE html>
+< lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plantilla</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-bar"></div>
+    <div class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-text">
+        <div class="title-bar"></div>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+        <div class="text-line short"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="card-grid">
+      <div class="card blue"><div class="square"></div></div>
+      <div class="card red"><div class="square"></div></div>
+      <div class="card yellow"><div class="square"></div></div>
+      <div class="card yellow"><div class="square"></div></div>
+      <div class="card blue"><div class="square"></div></div>
+      <div class="card red"><div class="square"></div></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-column"></div>
+    <div class="footer-column"></div>
+    <div class="footer-column"></div>
+  </footer>
+</body>
+</html>
