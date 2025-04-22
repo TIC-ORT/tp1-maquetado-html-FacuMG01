@@ -1,15 +1,20 @@
-.header{
-    background-color: orange;
-    width: 100vw;
-    height: 40vh;
-    
+.techo{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 166, 0, 0.486);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.cudradouno{
-background-color: rgb(184, 146, 77);
-width: 100px;
-height: 100px;
-justify-content: center;
- align-items: center;
-display: flex;
-margin-top: 50px;
+.cuadrado{
+    background-color: rgba(255, 166, 0, 0.699);
+    height: 150px;
+    width: 150px;
+    margin: 80px;
+}
+.lineaN{
+    background-color: rgba(255, 166, 0, 0.699);
+    height: 30px;
+    width: 230px;
 }
