@@ -1,80 +1,120 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.techo{
+  }
+  
+  
+  .techo {
     width: 100%;
     height: 200px;
-    background-color: rgba(255, 166, 0, 0.486);
+    background-color: rgba(255, 206, 86, 0.9);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.cuadrado{
-    background-color: rgba(255, 166, 0, 0.699);
-    height: 150px;
-    width: 150px;
-    margin: 80px;
-}
-.lineaN{
-    background-color: rgba(255, 166, 0, 0.699);
-    height: 20px;
-    width: 115px;
-}
-.lineaB{
-    background-color: white;
-    height: 10px;
-    width: 230px;
-}
-.columnita{
+    gap: 50px;
+  }
+  
+  .cuadrado {
+    background-color: rgba(255, 179, 71, 1);
+    height: 100px;
+    width: 100px;
+  }
+  
+  .columnita {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.lineaBC{
+    align-items: flex-start;
+  }
+  
+  .lineaN {
+    background-color: rgba(255, 179, 71, 1);
+    height: 15px;
+    width: 150px;
+  }
+  
+  .lineaB {
     background-color: white;
     height: 10px;
-    width: 115px;
-}
-.centro{
+    width: 230px;
+  }
+  
+  .lineaBC {
+    background-color: white;
+    height: 10px;
+    width: 150px;
+  }
+  
+  .centro {
     background-color: white;
     width: 100%;
-    height: 300px;
-
-}
-.suelo{
-    background-color: grey;
-    width: 100%;
-    height: 80px;
-}
-.cuadradoA{
+    padding: 40px 0;
+  }
+  
+  .recta {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .bloque {
     height: 100px;
     width: 100px;
-    background-color: blue;
-}
-.linitA{
-    height: 10px;
-    width: 100px;
-    background-color: cadetblue;
-}
-.recta{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: cecnter;
-}
-.cuadraditoA{
-    background-color: cadetblue;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-cuadradoR{
-    height: 100px;
+  }
+  
+  .bloqueA {
+    background-color: #b2ebf2;
+  }
+  
+  .bloqueR {
+    background-color: #ffab91;
+  }
+  
+  .bloqueY {
+    background-color: #ffd54f;
+  }
+  
+  .inner {
+    height: 50px;
+    width: 50px;
+    opacity: 0.6;
+    background-color: inherit;
+  }
+  
+  
+  .suelo {
+    background-color: #eee;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .pie1 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .pie2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .linea1 {
+    height: 10px;
     width: 100px;
-    background-color: red;
-}
+    background-color: #bbb;
+  }
+  
+  .linea2 {
+    height: 10px;
+    width: 90px;
+    background-color: #ddd;
+  }
+  
